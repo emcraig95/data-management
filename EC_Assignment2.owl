@@ -1,0 +1,1511 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/emma/ontologies/2018/1/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/emma/ontologies/2018/1/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:smite="http://www.SMITE.com/ontologies/smite.owl/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:smite1="http://www.SMITE.com/ontologies/smite.owl/0000174">
+    <owl:Ontology rdf:about="http://www.SMITE.com/ontologies/smite.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.SMITE.com/ontologies/smite.owl/definition">
+        <smite:definition xml:lang="en">definition</smite:definition>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000174reference -->
+
+    <owl:AnnotationProperty rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000174reference">
+        <rdfs:label xml:lang="en">reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000169 -->
+
+    <owl:ObjectProperty rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000169">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <smite:definition>The character gets its power from this source.</smite:definition>
+        <rdfs:label xml:lang="en">usesPowerType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000171 -->
+
+    <owl:ObjectProperty rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000171">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <smite:definition>The character delivers basic attacks in this method.</smite:definition>
+        <rdfs:label xml:lang="en">usesAttackType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000172 -->
+
+    <owl:ObjectProperty rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000172">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <smite:definition>The character is this character type indicated.</smite:definition>
+        <rdfs:label xml:lang="en">isCharacterType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000173 -->
+
+    <owl:ObjectProperty rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000173">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <smite:definition>Character is a member of the indicated group.</smite:definition>
+        <rdfs:label xml:lang="en">isPartofClass</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000028Characters -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000028Characters">
+        <smite:definition>These are the playable characters within SMITE. Players select one before a game mode and must play as that character for the entirity of the match.
+These characters are based on various gods and goddesses, as well as monsters and heroes, from various mythologies.</smite:definition>
+        <rdfs:label xml:lang="en">Characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000039 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000039">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <rdfs:label xml:lang="en">CelticPantheon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000040 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000040">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <rdfs:label xml:lang="en">ChinesePantheon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000041 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000041">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <rdfs:label xml:lang="en">EgyptianPantheon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000042 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000042">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <rdfs:label xml:lang="en">GreekPantheon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000043 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000043">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <rdfs:label xml:lang="en">HinduPantheon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000044 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000044">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <rdfs:label xml:lang="en">JapanesePantheon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000045 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000045">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <rdfs:label xml:lang="en">MayanPantheon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000046 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000046">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <rdfs:label xml:lang="en">NorsePantheon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000047 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000047">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <rdfs:label xml:lang="en">RomanPantheon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000048 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000048">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <smite:definition>&quot;The Bear Goddess&quot;; she is the Celtic goddess of the balance, as in the balance within the universe. Able to trasnfom into bear.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Artio</smite1:reference>
+        <rdfs:label xml:lang="en">Artio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000049 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000049">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000039"/>
+        <smite:definition>&quot;The Horned God&quot;; Celtic god of life and animals. He of the Sacred Wheel which controls the turn of the seasons.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Cernunnos</smite1:reference>
+        <rdfs:label xml:lang="en">Cernunnos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000050 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000050">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000039"/>
+        <smite:definition>&quot;The Hound of Ulster&quot;; originally born as Sentanta, he was a strong hero who earned his name after slaying a smith&apos;s dog (Cu Chulainn translates to &quot;the Hound of Culann&quot;).</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Cu_Chulainn</smite1:reference>
+        <rdfs:label xml:lang="en">Cu_Chulainn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000051 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000051">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000039"/>
+        <smite:definition>Phantom Queen; this is the title for the trinity goddesses within Celtic mythology, Anu, Macha, and Badb. These three make up the Morrigan and represent sovereignty, war and death.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/The_Morrigan</smite1:reference>
+        <rdfs:label xml:lang="en">The_Morrigan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000052 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000052">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000040"/>
+        <smite:definition>&quot;Dragon King of the Eastern Seas&quot;; one of the four Dragon-Gods of the Chinese pantheon. His powers generally consist of control of rivers, rainfall, and teh tides.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Ao_Kuang</smite1:reference>
+        <rdfs:label xml:lang="en">Ao_Kuang</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000053 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000053">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000040"/>
+        <smite:definition>&quot;Faerie of the Moon&quot;; Chinese Goddess of the moon and wife of Hou Yi. She is forced to live on the moon away from her husband and has a Jade Rabbit as her companion.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Chang%27e</smite1:reference>
+        <rdfs:label xml:lang="en">Chang&apos;e</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000054 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000054">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000040"/>
+        <smite:definition>&quot;The Nine-Tailed Fox&quot;; this is the human form of the legendary spirit. She was a torturer summoned by Emperor Zhou.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Da_Ji</smite1:reference>
+        <rdfs:label xml:lang="en">Da_Ji</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000055 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000055">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000040"/>
+        <smite:definition>&quot;The Illustrious Sage&quot;; born to a goddess mother and mortal father, he is a heroic warrior as well as magical sage.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Erlang_Shen</smite1:reference>
+        <rdfs:label xml:lang="en">Erlang_Shen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000056 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000056">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000040"/>
+        <smite:definition>&quot;Saint of War&quot;; a honourable and loyal warrior in his mortal life, he was made immortal and became a guardian of justice, earning his title.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Guan_Yu</smite1:reference>
+        <rdfs:label xml:lang="en">Guan_Yu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000057 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000057">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000040"/>
+        <smite:definition>&quot;God of the Yellow River&quot;; originally a mortal man named Feng Yi, he became a god through sacrificing his life to save his village. The Yellow River became the body of water that he has dominion over.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/He_Bo</smite1:reference>
+        <rdfs:label xml:lang="en">He_Bo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000058 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000058">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000040"/>
+        <smite:definition>&quot;Defender of the Earth&quot;; the great archer of the Heavens and husband of Chang&apos;e, he was called down in ancient times when there was ten suns in the sky. Using his great bow, he shot down nine of the suns and left the one we see today.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Hou_Yi</smite1:reference>
+        <rdfs:label xml:lang="en">Hou_Yi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000059 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000059">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000040"/>
+        <smite:definition>&quot;The Oathkeeper&quot;; once a princess and daughter of Emperor Yan Di, she drowned in an attempt to cross the ocean. She was reborn in a winged form and swore an oath to fill the ocean with stones to prevent anyone from drowning there ever again.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Jing_Wei</smite1:reference>
+        <rdfs:label xml:lang="en">Jing_Wei</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000060 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000060">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000040"/>
+        <smite:definition>&quot;The Third Lotus Prince&quot;; a child-god, he was a skilled fighter, armed with the Universe Ring and Armilary Sash. He was forced to sacrifice himself in order to save the world from the wrath of the Dragon Gods, but was later reborn.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Ne_Zha</smite1:reference>
+        <rdfs:label xml:lang="en">Ne_Zha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000061 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000061">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000040"/>
+        <smite:definition>&quot;Guardian of Heaven&quot;; a snake-bodied goddess, she is a goddess of creation having shaped all people from clay. She also created the five mystic stones which embody the five elemental forces of nature (Earth, Water, Fire, Wood, and Metal).</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Nu_Wa</smite1:reference>
+        <rdfs:label xml:lang="en">Nu_Wa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000062 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000062">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000040"/>
+        <smite:definition>&quot;The Monkey King&quot;; a great warior, he was the leader of the monkey tribes of China. He was able to gain immortality by helping the monk Xuanzang in the legendary story, Journey to the West.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Sun_Wukong</smite1:reference>
+        <rdfs:label xml:lang="en">Sun_Wukong</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000063 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000063">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000040"/>
+        <smite:definition>&quot;The Relentless&quot;; once a warrior-poet sworn to the Flame Emperor, he was beheaded in battle. However, his wish to avenge his emperor caused him to arise headless, his chest imprinted with a new face.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Xing_Tian</smite1:reference>
+        <rdfs:label xml:lang="en">Xing_Tian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000064 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000064">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000040"/>
+        <smite:definition>&quot;The Demon Queller&quot;; a great scholar who was shunned for his ugliness in his mortal life, the King of Hell recognized his great power and made him the Lord of Demons. His job was to hunt down the evil demons and spirits in the world.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Zhong_Kui</smite1:reference>
+        <rdfs:label xml:lang="en">Zhong_Kui</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000065 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000065">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000041"/>
+        <smite:definition>&quot;Slayer of Enemies&quot;; the Egyptian god of war who has the head of a lion and son of Ra. He once protected the golden barge that guided the sun across the sky.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Anhur</smite1:reference>
+        <rdfs:label xml:lang="en">Anhur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000066 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000066">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000041"/>
+        <smite:definition>&quot;God of the Dead&quot;; the child of Nephthys and Osiris, he is the god of the dead and mummification with a jackel head. He performed the first mummification rite on his own father and later passed this down to the Egyptian people.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Anubis</smite1:reference>
+        <rdfs:label xml:lang="en">Anubis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000067 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000067">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000041"/>
+        <smite:definition>&quot;Goddess of Cats&quot;; the cat-headed goddess of cats, women, and the arts and daughter of Ra. She, along with her brother Anhur, guarded the golden barge that guided the sun across the sky.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Bastet</smite1:reference>
+        <rdfs:label xml:lang="en">Bastet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000068 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000068">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000041"/>
+        <smite:definition>&quot;God of Earth&quot;; a titanous god that&apos;s body makes up the entire world. He was once the lover of Nut, goddess of the sky, before they were seperated by Ra.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Geb</smite1:reference>
+        <rdfs:label xml:lang="en">Geb</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000069 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000069">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000041"/>
+        <smite:definition>&quot;Goddess of Magic&quot;; child of Geb and Nut, she is the goddess of magic and knows the True Names of everything in the universe. When her husband Osiris was slain and hacked up by Set, she journeyed around the world to retrieve the pieces.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Isis</smite1:reference>
+        <rdfs:label xml:lang="en">Isis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000070 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000070">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000041"/>
+        <smite:definition>&quot;The Dawn Bringer&quot;; a giant scarab god who guides the sun across the underworld sky. He earns his title as he passes off the sun to Ra in the dawn.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Khepri</smite1:reference>
+        <rdfs:label xml:lang="en">Khepri</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000071 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000071">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000041"/>
+        <smite:definition>&quot;Weaver of Fate&quot;; Egyptian goddess of the hunt. She was also responsible for weaving together shrouds for the dead and spun out strings to guide them to the underworld.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Neith</smite1:reference>
+        <rdfs:label xml:lang="en">Neith</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000072 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000072">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000041"/>
+        <smite:definition>&quot;Broken God of the Underworld&quot;; husband of Isis, he is the Egyptian god of the underworld. Once ruler of Egypt, he was killed and dismembered by Set before being brought to life by his wife and Anubis, yet was unable to join the world of the living.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Osiris</smite1:reference>
+        <rdfs:label xml:lang="en">Osiris</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000073 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000073">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000041"/>
+        <smite:definition>&quot;Sun God&quot;; son of Isis and Osiris, he is the falcon-headed god of the son. Each day, he guides the sun across the sky in a golden barge.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Ra</smite1:reference>
+        <rdfs:label xml:lang="en">Ra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000074 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000074">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000041"/>
+        <smite:definition>&quot;Goddess of Venom&quot;; with a scorpian tail, she is the goddess of venom and has domion over venomous animals. She delivers poison as punishment to the wicked.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Serqet</smite1:reference>
+        <rdfs:label xml:lang="en">Serqet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000075 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000075">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000041"/>
+        <smite:definition>&quot;God of the Nile&quot;; a crocodile god, he holds diminion over the Nile River. He is worshipped by those who travel the great river, offering them protection in their journeys.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Sobek</smite1:reference>
+        <rdfs:label xml:lang="en">Sobek</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000076 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000076">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000041"/>
+        <smite:definition>&quot;Arbiter of the Damned&quot;; the ibis-headed scribe of the gods, he possesses a great tome of magic and secrets about the universe. He also aids Anubis in judging the souls of the dead.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Thoth</smite1:reference>
+        <rdfs:label xml:lang="en">Thoth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000077 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000077">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;Goddess of Beauty&quot;; the Greek goddess of beauty and love, she is incredibly beautiful. She was the goddess responsible for starting the Trojan war, when she gave Helen to Prince Paris of Troy.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Aphrodite</smite1:reference>
+        <rdfs:label xml:lang="en">Aphrodite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000078 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000078">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;God of Music&quot;; the Greek god of music and the arts, he created the first lyre. Child of Zeus and Leto as well as twin to Artemis, he defeated the great serpent Pylos when it was sent to kill him as an infant.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Apollo</smite1:reference>
+        <rdfs:label xml:lang="en">Apollo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000079 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000079">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;The Weaver&quot;; a spider-monster now, she was once a skilled mortal weaver. However, when she boasted in front of Athena and won a weaving contest against her, the angry goddess transformed her into a monster.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Arachne</smite1:reference>
+        <rdfs:label xml:lang="en">Arachne</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000080 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000080">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;God of War&quot;; child of Zeus and Hera, he is the Greek god of warfare. While his sister also is a god of war, this god represents the violence and force that comes with warfare.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Ares</smite1:reference>
+        <rdfs:label xml:lang="en">Ares</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000081 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000081">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;Goddess of the Hunt&quot;; daughter of Zeus and Leto and twin sister to Apollo, she is the goddess of hunting and women. She is known for having a wicked temper, having cursed many mortal men.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Artemis</smite1:reference>
+        <rdfs:label xml:lang="en">Artemis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000082 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000082">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;Goddess of Wisdom&quot;; a daughter of Zeus, she is the goddess of wisdom as well as startegic warfare. She is a symbol of honour and valour to warriors.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Athena</smite1:reference>
+        <rdfs:label xml:lang="en">Athena</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000083 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000083">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;Warden of the Underworld&quot;; a three-headed dog monster with a snake for a tail, he is a servant to Hades. He guards the entrance to the underworld, making sure that only the dead enters.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Cerberus</smite1:reference>
+        <rdfs:label xml:lang="en">Cerberus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000084 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000084">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;The Great Teacher&quot;; a centaur scholar and teacher, he has trained many great warriors of Greek mythology. His pupils include Perseus, Ajax, and Achilles.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Chiron</smite1:reference>
+        <rdfs:label xml:lang="en">Chiron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000085 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000085">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;Keeper of Time&quot;; a titan guradian who controls the clock of enternity. Having come into being as soon as time began, he and Ananke, Queen of Fate, created the world.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Chronos</smite1:reference>
+        <rdfs:label xml:lang="en">Chronos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000086 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000086">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;King of the Underworld&quot;; one of Zeus&apos; brothers, he is the god of the Greek underworld and the dead. He reigns over the underworld and the dead that reside there.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Hades</smite1:reference>
+        <rdfs:label xml:lang="en">Hades</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000087 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000087">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;The Gorgon&quot;; once a beautiful mortal woman and priestess to Athena, Athena cursed her and turned her into a monster with snakes for hair. With one look, she is able to turn people to stone.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Medusa</smite1:reference>
+        <rdfs:label xml:lang="en">Medusa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000088 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000088">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;Goddess of Vengeance&quot;; the Greek goddess of revenge and divine retribution. An enforcer of hubris, gods and mortals fear her wrath.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Nemesis</smite1:reference>
+        <rdfs:label xml:lang="en">Nemesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000089 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000089">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;Goddess of Victory&quot;; the winged warrior goddess of victory. She is prayed to for victory in battle and fought alongside the other Greek gods against the Titans.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Nike</smite1:reference>
+        <rdfs:label xml:lang="en">Nike</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000090 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000090">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;God of the Oceans&quot;; another brother of Zeus, he is the god and rule of the oceans. He has a feud with Athena as they both fought for the right to be the patron saint of Athens (Athena won).</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Poseidon</smite1:reference>
+        <rdfs:label xml:lang="en">Poseidon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000091 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000091">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;Horror of the Deep&quot;; an ocean monster with the body of a woman wth dog-headed tentacles coming from her waist. She is featured in the story &quot;The Odyssey&quot;, she and the whirlpool monster Charybdis guarded a channel.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Scylla</smite1:reference>
+        <rdfs:label xml:lang="en">Scylla</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000092 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000092">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;Hand of Death&quot;; the Greek god of death. He reaps the souls of the dead for Hades using his great scythe.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Thanatos</smite1:reference>
+        <rdfs:label xml:lang="en">Thanatos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000093 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000093">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;God of the Sky&quot;; Greek god of the sky and king of gods, he rules Mount Olympus. Child of Rhea and Cronus, he grew up to defeat his titan father and free his siblings. They then worked to end the reign of the Titans and imprison them in the underworld.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Zeus</smite1:reference>
+        <rdfs:label xml:lang="en">Zeus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000094 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000094">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <smite:definition>&quot;God of Fire&quot;; the Hindu god of fire and is messenger between mortals and the gods. He has two heads, one has a face of kindness and the other a grim demeanour.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Agni</smite1:reference>
+        <rdfs:label xml:lang="en">Agni</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000095 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000095">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <smite:definition>&quot;The Great Devourer&quot;; a demon monster who hungers for human flesh. He appeared in the epic story, the Mahabharata, where he terrorized a village before the heroes of the story appeared.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Bakasura</smite1:reference>
+        <rdfs:label xml:lang="en">Bakasura</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000096 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000096">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <smite:definition>&quot;God of Success&quot;; the elephant-headed god of wisdom and prosperity. He earned his elephant when his father Shiva cut off his head while he was guarding his wife Parvati. The elephant head was used as a replacement and gave him his wisdom.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Ganesha</smite1:reference>
+        <rdfs:label xml:lang="en">Ganesha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000097 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000097">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <smite:definition>&quot;Goddess of Destruction&quot;; this many-armed goddess is known as the Black One as well as the goddess of time and destruction. She is the second form of Devi, the supreme goddess, having been born from the blood of the demon Raktabija and Durga&apos;s, the Mother of Creation, wrath.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Kali</smite1:reference>
+        <rdfs:label xml:lang="en">Kali</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000098 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000098">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <smite:definition>&quot;The Sleeping Giant&quot;; a giant and brother to Ravana, he sought to rule the heavens. However, he was tricked by Brahma and now sleeps, only waking every six months.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Kumbhakarna</smite1:reference>
+        <rdfs:label xml:lang="en">Kumbhakarna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000099 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000099">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <smite:definition>&quot;Seventh Avatar of Vishnu&quot;; this the seventh reincarnation that the god Vishnu took. He was the prince of Ayodhya and a great archer.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Rama</smite1:reference>
+        <rdfs:label xml:lang="en">Rama</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000100 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000100">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <smite:definition>&quot;Demon King of Lanka;&quot; once a devotee to Shiva, he sacrifced himself to the god by cutting off his own head. Instead of dying, the head grew back and he was overcome with rage for having been rejected by Shiva. He was given invulnerability and amassed an army of demons.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Ravana</smite1:reference>
+        <rdfs:label xml:lang="en">Ravana</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000101 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000101">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <smite:definition>&quot;Fifth Avatar of Vishnu&quot;; when the demon king Bali took control of the world, Vishnu took the form of this priest. Using his magic, he was able to defeat Bali and retake the world for Vishnu.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Vamana</smite1:reference>
+        <rdfs:label xml:lang="en">Vamana</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000102 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000102">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000044"/>
+        <smite:definition>&quot;The Shining Light&quot;; the Japaneese goddess of the sun. For a time, she sealed herself in a cave and the world suffered until her friends and loved ones were able to convince her to rejoin the world.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Amaterasu</smite1:reference>
+        <rdfs:label xml:lang="en">Amaterasu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000103 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000103">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000044"/>
+        <smite:definition>&quot;Lord of the Eight Banners&quot;; a great warrior of Japanese mythology. It is believed that while he was in the womb, his mother Empress Jingu held him inside her for an additional three years while fighting a war, praying to the gods that he would survive. The gods answered the prayers and made him a strong fighter.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Hachiman</smite1:reference>
+        <rdfs:label xml:lang="en">Hachiman</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000104 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000104">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000044"/>
+        <smite:definition>&quot;Matron of the Dead&quot;; a goddess of creation that helped her husband Izanagi create the world. She died giving birth to the god of fire and when Izanagi went to rescue her from the underworld he found she had become hideous and rotten. He abandoned her, making her into a wrathful goddess.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Izanami</smite1:reference>
+        <rdfs:label xml:lang="en">Izanami</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000105 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000105">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000044"/>
+        <smite:definition>&quot;King Kappa&quot;; a turtle-like monster with an indent on the top of his head to hold its life waters. This particular kappa is the ruler of them all and lead an invasion of the man-eating monsters to Japan.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Kuzenbo</smite1:reference>
+        <rdfs:label xml:lang="en">Kuzenbo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000106 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000106">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000044"/>
+        <smite:definition>&quot;Master of Thunder&quot;; god of thunder with a demon face who summons thunder with the banging of his drums. He often fights for control of the sky with his brother Fujin, the god of wind.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Raijin</smite1:reference>
+        <rdfs:label xml:lang="en">Raijin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000107 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000107">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000044"/>
+        <smite:definition>&quot;God of the Summer Storm&quot;; the Japanese god of storms, he was forced to live in the underworld because of his destructive attitude. He later atoned for this by giving his Ten-Span Sword to his sister, Amaterasu.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Susano</smite1:reference>
+        <rdfs:label xml:lang="en">Susano</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000108 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000108">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <smite:definition>&quot;God of Bees&quot;; he is the Mayan god of bees. He is an ancient being, being brought into the world when the sky fell against the earth, causing life to begin and the first bees to emerge. This god appeared as patron of these beings.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Ah_Muzen_Cab</smite1:reference>
+        <rdfs:label xml:lang="en">Ah_Muzen_Cab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000109 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000109">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <smite:definition>&quot;Horrific God of Decay&quot;; the lord of the nineth hell and a god of the dead. He comes out at night to scare humans with his grisly skull face while dragging any unlucky people he caught into the underworld.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Ah_Puch</smite1:reference>
+        <rdfs:label xml:lang="en">Ah_Puch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000110 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000110">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <smite:definition>&quot;Goddess of the Moon;&quot; Queen of the Night and goddess of the moon. Her lover is the sun, which is where the moon gets its glow from, and she has jaguars as her faithful beasts.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Awilix</smite1:reference>
+        <rdfs:label xml:lang="en">Awilix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000111 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000111">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <smite:definition>&quot;Destroyer of Mountains&quot;; a mighty titan and child of the demon bird Seven Macaw. He also goes by the names Render of Stone and Earthsunder.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Cabrakan</smite1:reference>
+        <rdfs:label xml:lang="en">Cabrakan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000112 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000112">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <smite:definition>&quot;Deadly God of Bats&quot;; an underworld god that takes the forms of a giant bat. He is known for having killed one of the Hero Twins of Mayan mythology, Hunahpu.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Camazotz</smite1:reference>
+        <rdfs:label xml:lang="en">Camazotz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000113 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000113">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <smite:definition>&quot;God of Rain&quot;; the Mayan god of rain who weilds a giant axe. He is the god that brought maize for the Mayans to grow and caused the first rainfall by cutting the sky open with his axe.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Chaac</smite1:reference>
+        <rdfs:label xml:lang="en">Chaac</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000114 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000114">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <rdfs:label xml:lang="en">Hun_Batz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000115 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000115">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <rdfs:label xml:lang="en">Kukulkan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000116 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000116">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <rdfs:label xml:lang="en">Xbalanque</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000117 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000117">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:label xml:lang="en">Fafnir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000118 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000118">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:label xml:lang="en">Fenrir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000119 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000119">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:label xml:lang="en">Freya</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000120 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000120">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:label xml:lang="en">Hel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000121 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000121">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:label xml:lang="en">Loki</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000122 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000122">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:label xml:lang="en">Odin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000123 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000123">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:label xml:lang="en">Ratatoskr</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000124 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000124">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:label xml:lang="en">Skadi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000125 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000125">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:label xml:lang="en">Sol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000126 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000126">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:label xml:lang="en">Thor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000127 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000127">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:label xml:lang="en">Tyr</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000128 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000128">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:label xml:lang="en">Ullr</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000129 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000129">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:label xml:lang="en">Ymir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000130 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000130">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:label xml:lang="en">Bacchus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000131 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000131">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:label xml:lang="en">Bellona</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000132 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000132">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:label xml:lang="en">Cupid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000133 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000133">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:label xml:lang="en">Discordia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000134 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000134">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:label xml:lang="en">Hercules</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000135 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000135">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:label xml:lang="en">Janus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000136 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000136">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:label xml:lang="en">Mercury</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000137 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000137">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:label xml:lang="en">Nox</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000138 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000138">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:label xml:lang="en">Sylvanus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000139 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000139">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:label xml:lang="en">Terra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000140 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000140">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:label xml:lang="en">Vulcan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000151 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000151">
+        <smite:definition>These are what types of beings each character are.</smite:definition>
+        <rdfs:label xml:lang="en">CharacterTypes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000153ClassType -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType">
+        <smite:definition>These are groups based off of what type of power and attack type each character has. These groups each come with their own benefits.</smite:definition>
+        <rdfs:label xml:lang="en">ClassType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000154 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000154">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000151"/>
+        <smite:definition>A deity that is worshipped within a specific parthenon.</smite:definition>
+        <rdfs:label xml:lang="en">God/Goddess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000155 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000155">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000151"/>
+        <smite:definition>Can be either mortal or immortal, a creature that is considered beastly and strikes fear in people.</smite:definition>
+        <rdfs:label xml:lang="en">Monster</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000156 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000156">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000151"/>
+        <smite:definition>A mortal, or once mortal (could have been made immortal based on their deeds or through the interventions of gods), who performs feats of bravery and prowess.</smite:definition>
+        <rdfs:label xml:lang="en">Hero</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000157 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000157">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
+        <smite:definition>A character with either melee or ranged attacks with magical power. Often are capable of withstanding high damage from enemies.</smite:definition>
+        <rdfs:label xml:lang="en">Guardian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000158 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000158">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
+        <smite:definition>A character with ranged, magical attacks. Often used to deal large amounts of damage on enemies.</smite:definition>
+        <rdfs:label xml:lang="en">Mage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000159 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000159">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
+        <smite:definition>A character with ranged and physical abilities. Often are used to deal lots of damage on enemies very quickly.</smite:definition>
+        <rdfs:label xml:lang="en">Hunter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000160 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000160">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
+        <smite:definition>A character that uses physical, melee attacks. Often are able to deal lots of damage as well as sustain damage from others.</smite:definition>
+        <rdfs:label xml:lang="en">Warrior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000161 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000161">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
+        <smite:definition>A character that uses physical, melee attacks. Often have high mobility and burst attack strength.</smite:definition>
+        <rdfs:label xml:lang="en">Assassin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000162 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000162">
+        <smite:definition>This is where source of character&apos;s basic attacks come from. Some characters can use magic, while others rely on their physical abilities.</smite:definition>
+        <rdfs:label xml:lang="en">PowerType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000163 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000163">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000162"/>
+        <owl:disjointWith rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+        <smite:definition>Characters with this power type use attacks related to bodily capabilities, such as strikes, claws, and weapons.</smite:definition>
+        <rdfs:label xml:lang="en">Physical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000164 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000164">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000162"/>
+        <smite:definition>Characters with this power type are able to use magic to deliver attacks on enemies.</smite:definition>
+        <rdfs:label xml:lang="en">Magical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000165 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000165">
+        <smite:definition>The way that a character delivers their abilities against enemies. Some characters used ranged attacks, while others use melee.</smite:definition>
+        <rdfs:label xml:lang="en">AttackType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000166 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000166">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000165"/>
+        <owl:disjointWith rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+        <smite:definition>These are attacks that can be delivered from a far, meaning that the character can be far away from their enemy and still deal damage.</smite:definition>
+        <rdfs:label xml:lang="en">Ranged</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000167 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000167">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000165"/>
+        <smite:definition>These are attacks that are delivered within a short range, so characters must be close to their enemies in order to use their abilities.</smite:definition>
+        <rdfs:label xml:lang="en">Melee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000039"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000040"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000041"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000044"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000048"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000049"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000050"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000051"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000052"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000053"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000054"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000055"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000056"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000057"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000058"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000059"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000060"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000061"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000062"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000063"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000064"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000065"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000066"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000067"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000068"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000069"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000070"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000071"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000072"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000073"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000074"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000075"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000076"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000077"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000078"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000079"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000080"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000081"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000082"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000083"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000084"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000085"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000086"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000087"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000088"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000089"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000090"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000091"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000092"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000093"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000094"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000095"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000096"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000097"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000098"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000099"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000100"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000101"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000102"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000103"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000104"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000105"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000106"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000107"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000108"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000109"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000110"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000111"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000112"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000113"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000114"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000115"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000116"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000117"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000118"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000119"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000120"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000121"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000122"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000123"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000124"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000125"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000126"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000127"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000128"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000129"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000130"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000131"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000132"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000133"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000134"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000135"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000136"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000137"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000138"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000139"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000140"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000155"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000156"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000157"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000159"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000160"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000161"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
