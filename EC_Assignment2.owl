@@ -928,6 +928,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000114">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <smite:definition>&quot;The Howler Monkey God&quot;; twin brother to Hun Chouen and half-brother to the Hero Twins of Mayan mythology. He was transformed into his monky form, along with his brother, when they were tricked to climb up a magical tree.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Hun_Batz</smite1:reference>
         <rdfs:label xml:lang="en">Hun_Batz</rdfs:label>
     </owl:Class>
     
@@ -937,6 +939,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000115">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <smite:definition>&quot;Serpent of the Nine Winds&quot;; a massive winged and feather serpent. He brought the four elements into the world, as well as being a god of death and rebirth.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Kukulkan</smite1:reference>
         <rdfs:label xml:lang="en">Kukulkan</rdfs:label>
     </owl:Class>
     
@@ -946,6 +950,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000116">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <smite:definition>&quot;Hidden Jaguar Sun&quot;; one half of the Hero Twins of Mayan mythology. He and his brother Hunahpu journeyed through the world on a quest to avenge their father, defeating many enemies.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Xbalanque</smite1:reference>
         <rdfs:label xml:lang="en">Xbalanque</rdfs:label>
     </owl:Class>
     
