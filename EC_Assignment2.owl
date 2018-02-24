@@ -961,6 +961,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000117">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <smite:definition>&quot;Lord of Glittering Gold&quot;; a dwarf, a creature known for its greed. He killed his own father and stole a treasure trove of cursed gold from him. The curse caused him to turn into a dragon with poisonous blood, as he was so overwhlemed by his greed.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Fafnir</smite1:reference>
         <rdfs:label xml:lang="en">Fafnir</rdfs:label>
     </owl:Class>
     
@@ -970,6 +972,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000118">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <smite:definition>&quot;The Unbound&quot;; a giant wolf-monster and son of Loki. He is bound by a magical ribbon to prevent him from destroying the world. It is believed that if he ever escapes his bindings, he will devour the world and kill Odin.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Fenrir</smite1:reference>
         <rdfs:label xml:lang="en">Fenrir</rdfs:label>
     </owl:Class>
     
@@ -979,6 +983,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000119">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <smite:definition>&quot;Queen of the Valkyries&quot;; a goddess of fertility and women, she is the leader of the Valkyries, a group of warrior women. She is the rule of Sessrunir, where she provides comfort to those who have fallen in battle.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Freya</smite1:reference>
         <rdfs:label xml:lang="en">Freya</rdfs:label>
     </owl:Class>
     
@@ -988,6 +994,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000120">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <smite:definition>&quot;Goddes of the Underworld&quot;; daughter of Loki, her body is half alive and half dead and decaying. She was presented dominion of the underworld by Odin, as she gives comfort to the dead and punishes the wicked souls that come to her.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Hel</smite1:reference>
         <rdfs:label xml:lang="en">Hel</rdfs:label>
     </owl:Class>
     
@@ -997,6 +1005,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000121">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <smite:definition>&quot;The Trickster God&quot;; a god known for creating michief throughout the Norse pantheon with his magic. When he caused the death of Baldr, he was bound up by the gods for his crime with a venomous serpent placed above him.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Loki</smite1:reference>
         <rdfs:label xml:lang="en">Loki</rdfs:label>
     </owl:Class>
     
@@ -1006,6 +1016,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000122">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <smite:definition>&quot;The Allfather&quot;; the king of Asgard and a god of war and warriors. He welcomes warriors who have died in battle to Valhalla so that they might aid him in Ragnarok, the Norse Apocalypse.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Odin</smite1:reference>
         <rdfs:label xml:lang="en">Odin</rdfs:label>
     </owl:Class>
     
@@ -1015,6 +1027,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000123">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <smite:definition>&quot;The Sly Messenger&quot;; a squirrel creature that lives within the world tree, Yggdrasil. His home in the tree makes him the perfect messenger to the gods, however he was also known for spreading gossip.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Ratatoskr</smite1:reference>
         <rdfs:label xml:lang="en">Ratatoskr</rdfs:label>
     </owl:Class>
     
@@ -1024,6 +1038,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000124">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <smite:definition>&quot;Goddess of Winter&quot;; a frost giantess and daughter of Jotun Thjazir. When she went to Asgard to avenge her father, Odin memoralized her father in the stars and made her the goddess of winter.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Skadi</smite1:reference>
         <rdfs:label xml:lang="en">Skadi</rdfs:label>
     </owl:Class>
     
@@ -1033,6 +1049,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000125">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <smite:definition>&quot;Goddess of the Sun&quot;; she and her brother, Mani were named after two heavenly bodies, the sun and the moon. As punishment for something their father did, her and her brother are forced to guide the sun and moon across the sky while being chased by hungry wolves.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Sol</smite1:reference>
         <rdfs:label xml:lang="en">Sol</rdfs:label>
     </owl:Class>
     
