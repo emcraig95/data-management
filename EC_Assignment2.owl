@@ -115,6 +115,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000039">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <smite:definition>Gods, monsters, and heroes that originate from Celtic mythology, worshipped by the Celts.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Gods</smite1:reference>
         <rdfs:label xml:lang="en">CelticPantheon</rdfs:label>
     </owl:Class>
     
@@ -124,6 +126,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000040">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <smite:definition>Gods, monsters, and heroes from Chinese mythology, worshipped by the Chinese.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Gods</smite1:reference>
         <rdfs:label xml:lang="en">ChinesePantheon</rdfs:label>
     </owl:Class>
     
@@ -133,6 +137,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000041">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <smite:definition>Gods, monsters, and heroes from Egyptian mythology, worshipped by the anicent Egyptians.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Gods</smite1:reference>
         <rdfs:label xml:lang="en">EgyptianPantheon</rdfs:label>
     </owl:Class>
     
@@ -142,6 +148,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000042">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <smite:definition>Gods, monsters, and heroes from Greek mythology, worshipped by the ancient Greeks.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Gods</smite1:reference>
         <rdfs:label xml:lang="en">GreekPantheon</rdfs:label>
     </owl:Class>
     
@@ -151,6 +159,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000043">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <smite:definition>Gods, monsters, and heroes from the Hindu religion, worshipped by Hindus.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Gods</smite1:reference>
         <rdfs:label xml:lang="en">HinduPantheon</rdfs:label>
     </owl:Class>
     
@@ -160,6 +170,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000044">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <smite:definition>Gods, monsters, and heroes from Japanese mythology, worshipped by the Japanese.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Gods</smite1:reference>
         <rdfs:label xml:lang="en">JapanesePantheon</rdfs:label>
     </owl:Class>
     
@@ -169,6 +181,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000045">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <smite:definition>Gods, monsters, and heroes from Mayan mythology, worshipped by the ancient Mayans.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Gods</smite1:reference>
         <rdfs:label xml:lang="en">MayanPantheon</rdfs:label>
     </owl:Class>
     
@@ -178,6 +192,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000046">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <smite:definition>Gods, monsters, and heroes from Norse mythology, worshipped by the ancient Norse people.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Gods</smite1:reference>
         <rdfs:label xml:lang="en">NorsePantheon</rdfs:label>
     </owl:Class>
     
@@ -187,6 +203,7 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000047">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000028Characters"/>
+        <smite:definition>Gods, monsters, and heroes from Roman mythology, worshipped by the ancient Romans.</smite:definition>
         <rdfs:label xml:lang="en">RomanPantheon</rdfs:label>
     </owl:Class>
     
@@ -1060,6 +1077,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000126">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <smite:definition>&quot;God of Thunder&quot;; son of Odin and god of thunder and lightning as well as a might warrior. A lot of his power comes from his hammer, Mjolnir, crafted by dwarves and has the ability to shatter mountains.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Thor</smite1:reference>
         <rdfs:label xml:lang="en">Thor</rdfs:label>
     </owl:Class>
     
@@ -1069,6 +1088,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000127">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <smite:definition>&quot;The Lawgiver&quot;; the Norse god of justice, worshipped for valor in battle and balance in justice. He lost his hand when they bound Fenrir for the third time.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Tyr</smite1:reference>
         <rdfs:label xml:lang="en">Tyr</rdfs:label>
     </owl:Class>
     
@@ -1078,6 +1099,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000128">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <smite:definition>&quot;The Glorious One&quot;; the Norse god of glory that often spends his time away from Asgard in isolation with nature. However, when Odin leaves his kingdon it is he who is most trusted to tend the throne, despite not being a son of Odin.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Ullr</smite1:reference>
         <rdfs:label xml:lang="en">Ullr</rdfs:label>
     </owl:Class>
     
@@ -1087,6 +1110,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000129">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <smite:definition>&quot;Father of the Frost Giants&quot;; a frost giant where all life, from gods to men, descend from. Long past dead, it is his skull that makes up the sky of Midgard, while his flesh and blood make up the earth and sea.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Ymir</smite1:reference>
         <rdfs:label xml:lang="en">Ymir</rdfs:label>
     </owl:Class>
     
@@ -1096,6 +1121,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000130">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <smite:definition>&quot;God of Wine&quot;; the Roman god of wine, debauchery, and madness. His mentor Solinus taught him the Mysteries of the Vine, a ritual that he passed down to mortals which leads to lots of wine and freeing oneself from social constraints.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Bacchus</smite1:reference>
         <rdfs:label xml:lang="en">Bacchus</rdfs:label>
     </owl:Class>
     
@@ -1105,6 +1132,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000131">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <smite:definition>&quot;Goddess of War&quot;; the Roman goddess of war that earns power from the fighting of men. She was not widely worshipped until the reign of Lucius Cornelius Sulla in Rome, one of her greatest worshippers.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Bellona</smite1:reference>
         <rdfs:label xml:lang="en">Bellona</rdfs:label>
     </owl:Class>
     
@@ -1114,6 +1143,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000132">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <smite:definition>&quot;God of Love&quot;; the son of Venus and Mars, he is the winged god of love. Armed with a bow and arrow, it is his job to make people fall in love, which in turn adds worshippers for his mother Venus.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Cupid</smite1:reference>
         <rdfs:label xml:lang="en">Cupid</rdfs:label>
     </owl:Class>
     
@@ -1123,6 +1154,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000133">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <smite:definition>&quot;Goddess of Strife&quot;; a mischeif maker, this Roman goddess of strife aims to cause havoc in the lives of gods and men. It was her Greek form, Eris, that created the golden apple that caused the fight between gods that started the Trojan war.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Discordia</smite1:reference>
         <rdfs:label xml:lang="en">Discordia</rdfs:label>
     </owl:Class>
     
@@ -1132,6 +1165,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000134">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <smite:definition>&quot;Champion of Rome&quot;; the son of Jupiter and mortal woman, he is gifted with incredible strength and will. When Jupiter&apos;s wife Juno found out, she made him mad and he slew his own children. As penance, he performed twelve legendary tasks for King Eurystheus that made him famous.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Hercules</smite1:reference>
         <rdfs:label xml:lang="en">Hercules</rdfs:label>
     </owl:Class>
     
@@ -1141,6 +1176,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000135">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <smite:definition>&quot;God of Portals and Transitions&quot;; the Roman god of portals and transitions thats likeness often adorns doorways. He has two faces so that he is able to look to into the future and the past.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Janus</smite1:reference>
         <rdfs:label xml:lang="en">Janus</rdfs:label>
     </owl:Class>
     
@@ -1150,6 +1187,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000136">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <smite:definition>&quot;Messenger of the Gods&quot;; a god of incredible speed and wit, Jupiter elected him as the messenger to the gods. He can deliver messages between the gods within Heaven, Earth, and even the Underworld.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Mercury</smite1:reference>
         <rdfs:label xml:lang="en">Mercury</rdfs:label>
     </owl:Class>
     
