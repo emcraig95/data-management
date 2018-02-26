@@ -1198,6 +1198,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000137">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <smite:definition>&quot;Goddess of Night&quot;; a primal goddess of the night and cloaked in darkness. She is also the mother to several gods, including the gods of friendship and dreams as well as the gods of doom and death,</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Nox</smite1:reference>
         <rdfs:label xml:lang="en">Nox</rdfs:label>
     </owl:Class>
     
@@ -1207,6 +1209,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000138">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <smite:definition>&quot;Keeper of the Wild&quot;; the spirit of nature who holds domain over it, often seen in the form of an old man. Once a young boy named Cyparissus died in his forest due to the god&apos;s fault, so he transformed him into the first cypress tree out of guilt.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Sylvanus</smite1:reference>
         <rdfs:label xml:lang="en">Sylvanus</rdfs:label>
     </owl:Class>
     
