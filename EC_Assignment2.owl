@@ -106,6 +106,7 @@
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000028Characters">
         <smite:definition>These are the playable characters within SMITE. Players select one before a game mode and must play as that character for the entirity of the match.
 These characters are based on various gods and goddesses, as well as monsters and heroes, from various mythologies.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Gods</smite1:reference>
         <rdfs:label xml:lang="en">Characters</rdfs:label>
     </owl:Class>
     
@@ -215,8 +216,26 @@ These characters are based on various gods and goddesses, as well as monsters an
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000039"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
                 <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000157"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <smite:definition>&quot;The Bear Goddess&quot;; she is the Celtic goddess of the balance, as in the balance within the universe. Able to trasnfom into bear.</smite:definition>
@@ -1220,6 +1239,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000139">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <smite:definition>&quot;The Earth Mother&quot;; the literal earth itself, all living things rest upon her skin. She was the wife of the sky, Ouranos, and together they gave birth to the Titans.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Terra</smite1:reference>
         <rdfs:label xml:lang="en">Terra</rdfs:label>
     </owl:Class>
     
@@ -1229,6 +1250,8 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000140">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <smite:definition>&quot;Smith of the Gods&quot;; child of Juno and Jupiter, he was ugly at birth and was thrown from Mount Olympus which caused him to become even more deformed. However, his gift in blacksmithing allowed him to create beautiful weapons and armout for the gods.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Vulcan</smite1:reference>
         <rdfs:label xml:lang="en">Vulcan</rdfs:label>
     </owl:Class>
     
@@ -1287,6 +1310,7 @@ These characters are based on various gods and goddesses, as well as monsters an
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000157">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
         <smite:definition>A character with either melee or ranged attacks with magical power. Often are capable of withstanding high damage from enemies.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Category:Guardian_gods</smite1:reference>
         <rdfs:label xml:lang="en">Guardian</rdfs:label>
     </owl:Class>
     
@@ -1297,6 +1321,7 @@ These characters are based on various gods and goddesses, as well as monsters an
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000158">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
         <smite:definition>A character with ranged, magical attacks. Often used to deal large amounts of damage on enemies.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Category:Mage_gods</smite1:reference>
         <rdfs:label xml:lang="en">Mage</rdfs:label>
     </owl:Class>
     
@@ -1307,6 +1332,7 @@ These characters are based on various gods and goddesses, as well as monsters an
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000159">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
         <smite:definition>A character with ranged and physical abilities. Often are used to deal lots of damage on enemies very quickly.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Category:Hunter_gods</smite1:reference>
         <rdfs:label xml:lang="en">Hunter</rdfs:label>
     </owl:Class>
     
@@ -1317,6 +1343,7 @@ These characters are based on various gods and goddesses, as well as monsters an
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000160">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
         <smite:definition>A character that uses physical, melee attacks. Often are able to deal lots of damage as well as sustain damage from others.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Category:Warrior_gods</smite1:reference>
         <rdfs:label xml:lang="en">Warrior</rdfs:label>
     </owl:Class>
     
@@ -1327,6 +1354,7 @@ These characters are based on various gods and goddesses, as well as monsters an
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000161">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
         <smite:definition>A character that uses physical, melee attacks. Often have high mobility and burst attack strength.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Category:Assassin_gods</smite1:reference>
         <rdfs:label xml:lang="en">Assassin</rdfs:label>
     </owl:Class>
     
@@ -1347,6 +1375,7 @@ These characters are based on various gods and goddesses, as well as monsters an
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000162"/>
         <owl:disjointWith rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
         <smite:definition>Characters with this power type use attacks related to bodily capabilities, such as strikes, claws, and weapons.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Category:Physical_gods</smite1:reference>
         <rdfs:label xml:lang="en">Physical</rdfs:label>
     </owl:Class>
     
@@ -1357,6 +1386,7 @@ These characters are based on various gods and goddesses, as well as monsters an
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000164">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000162"/>
         <smite:definition>Characters with this power type are able to use magic to deliver attacks on enemies.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Category:Magical_gods</smite1:reference>
         <rdfs:label xml:lang="en">Magical</rdfs:label>
     </owl:Class>
     
@@ -1377,6 +1407,7 @@ These characters are based on various gods and goddesses, as well as monsters an
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000165"/>
         <owl:disjointWith rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
         <smite:definition>These are attacks that can be delivered from a far, meaning that the character can be far away from their enemy and still deal damage.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Category:Ranged_gods</smite1:reference>
         <rdfs:label xml:lang="en">Ranged</rdfs:label>
     </owl:Class>
     
@@ -1387,6 +1418,7 @@ These characters are based on various gods and goddesses, as well as monsters an
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000167">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000165"/>
         <smite:definition>These are attacks that are delivered within a short range, so characters must be close to their enemies in order to use their abilities.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Category:Melee_gods</smite1:reference>
         <rdfs:label xml:lang="en">Melee</rdfs:label>
     </owl:Class>
     
