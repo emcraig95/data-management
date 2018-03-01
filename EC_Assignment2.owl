@@ -2099,6 +2099,17 @@ These characters are based on various gods and goddesses, as well as monsters an
     
 
 
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000175 -->
+
+    <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000175">
+        <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000042"/>
+        <smite:definition>&quot;Hero of the Trojan War&quot;; when he was born, his mother dipped him by his ankles in the River Styx, making him impervious to harm. He died fighting for the Greeks in the Trojan War from a well-aimed arrow to the ankle, his only weak spot.</smite:definition>
+        <smite1:reference>https://smite.gamepedia.com/Achilles</smite1:reference>
+        <rdfs:label xml:lang="en">Achilles</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2185,6 +2196,29 @@ These characters are based on various gods and goddesses, as well as monsters an
             <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000091"/>
             <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000092"/>
             <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000093"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000077"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000078"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000079"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000080"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000081"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000082"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000083"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000084"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000085"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000086"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000087"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000088"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000089"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000090"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000091"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000092"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000093"/>
+            <rdf:Description rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000175"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
