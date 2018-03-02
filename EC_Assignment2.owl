@@ -57,7 +57,7 @@ This ontology looks at the different playable characters and describes them usin
 
     <owl:ObjectProperty rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000169">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <smite:definition>The character gets its power from this source.</smite:definition>
+        <smite:definition>Character gets its power from this source.</smite:definition>
         <rdfs:label xml:lang="en">usesPowerType</rdfs:label>
     </owl:ObjectProperty>
     
@@ -67,7 +67,7 @@ This ontology looks at the different playable characters and describes them usin
 
     <owl:ObjectProperty rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000171">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <smite:definition>The character delivers basic attacks in this method.</smite:definition>
+        <smite:definition>Character delivers basic attacks in this method.</smite:definition>
         <rdfs:label xml:lang="en">usesAttackType</rdfs:label>
     </owl:ObjectProperty>
     
@@ -77,7 +77,7 @@ This ontology looks at the different playable characters and describes them usin
 
     <owl:ObjectProperty rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000172">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <smite:definition>The character is this character type indicated.</smite:definition>
+        <smite:definition>Character is this character type indicated.</smite:definition>
         <rdfs:label xml:lang="en">isCharacterType</rdfs:label>
     </owl:ObjectProperty>
     
@@ -276,7 +276,7 @@ These characters are based on various gods and goddesses, as well as monsters an
                 <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000159"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <smite:definition>&quot;The Horned God&quot;; Celtic god of life and animals. He of the Sacred Wheel which controls the turn of the seasons.</smite:definition>
+        <smite:definition>&quot;The Horned God&quot;; Celtic god of life and animals. He has control of the Sacred Wheel, which controls the turn of the seasons.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Cernunnos</smite1:reference>
         <rdfs:label xml:lang="en">Cernunnos</rdfs:label>
     </owl:Class>
@@ -1827,6 +1827,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000094">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;God of Fire&quot;; the Hindu god of fire and is messenger between mortals and the gods. He has two heads, one has a face of kindness and the other a grim demeanour.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Agni</smite1:reference>
         <rdfs:label xml:lang="en">Agni</rdfs:label>
@@ -1838,6 +1862,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000095">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000161"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;The Great Devourer&quot;; a demon monster who hungers for human flesh. He appeared in the epic story, the Mahabharata, where he terrorized a village before the heroes of the story appeared.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Bakasura</smite1:reference>
         <rdfs:label xml:lang="en">Bakasura</rdfs:label>
@@ -1849,6 +1897,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000096">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000157"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;God of Success&quot;; the elephant-headed god of wisdom and prosperity. He earned his elephant when his father Shiva cut off his head while he was guarding his wife Parvati. The elephant head was used as a replacement and gave him his wisdom.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Ganesha</smite1:reference>
         <rdfs:label xml:lang="en">Ganesha</rdfs:label>
@@ -1860,6 +1932,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000097">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000161"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Goddess of Destruction&quot;; this many-armed goddess is known as the Black One as well as the goddess of time and destruction. She is the second form of Devi, the supreme goddess, having been born from the blood of the demon Raktabija and Durga&apos;s, the Mother of Creation, wrath.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Kali</smite1:reference>
         <rdfs:label xml:lang="en">Kali</rdfs:label>
@@ -1871,6 +1967,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000098">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000157"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;The Sleeping Giant&quot;; a giant and brother to Ravana, he sought to rule the heavens. However, he was tricked by Brahma and now sleeps, only waking every six months.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Kumbhakarna</smite1:reference>
         <rdfs:label xml:lang="en">Kumbhakarna</rdfs:label>
@@ -1882,6 +2002,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000099">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000156"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Seventh Avatar of Vishnu&quot;; this the seventh reincarnation that the god Vishnu took. He was the prince of Ayodhya and a great archer.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Rama</smite1:reference>
         <rdfs:label xml:lang="en">Rama</rdfs:label>
@@ -1893,6 +2037,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000100">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000160"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Demon King of Lanka;&quot; once a devotee to Shiva, he sacrifced himself to the god by cutting off his own head. Instead of dying, the head grew back and he was overcome with rage for having been rejected by Shiva. He was given invulnerability and amassed an army of demons.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Ravana</smite1:reference>
         <rdfs:label xml:lang="en">Ravana</rdfs:label>
@@ -1904,6 +2072,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000101">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000156"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000160"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Fifth Avatar of Vishnu&quot;; when the demon king Bali took control of the world, Vishnu took the form of this priest. Using his magic, he was able to defeat Bali and retake the world for Vishnu.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Vamana</smite1:reference>
         <rdfs:label xml:lang="en">Vamana</rdfs:label>
@@ -1915,6 +2107,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000102">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000044"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000160"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;The Shining Light&quot;; the Japaneese goddess of the sun. For a time, she sealed herself in a cave and the world suffered until her friends and loved ones were able to convince her to rejoin the world.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Amaterasu</smite1:reference>
         <rdfs:label xml:lang="en">Amaterasu</rdfs:label>
@@ -1926,6 +2142,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000103">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000044"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000156"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Lord of the Eight Banners&quot;; a great warrior of Japanese mythology. It is believed that while he was in the womb, his mother Empress Jingu held him inside her for an additional three years while fighting a war, praying to the gods that he would survive. The gods answered the prayers and made him a strong fighter.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Hachiman</smite1:reference>
         <rdfs:label xml:lang="en">Hachiman</rdfs:label>
@@ -1937,6 +2177,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000104">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000044"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Matron of the Dead&quot;; a goddess of creation that helped her husband Izanagi create the world. She died giving birth to the god of fire and when Izanagi went to rescue her from the underworld he found she had become hideous and rotten. He abandoned her, making her into a wrathful goddess.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Izanami</smite1:reference>
         <rdfs:label xml:lang="en">Izanami</rdfs:label>
@@ -1948,6 +2212,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000105">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000044"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000157"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;King Kappa&quot;; a turtle-like monster with an indent on the top of his head to hold its life waters. This particular kappa is the ruler of them all and lead an invasion of the man-eating monsters to Japan.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Kuzenbo</smite1:reference>
         <rdfs:label xml:lang="en">Kuzenbo</rdfs:label>
@@ -1959,6 +2247,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000106">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000044"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Master of Thunder&quot;; god of thunder with a demon face who summons thunder with the banging of his drums. He often fights for control of the sky with his brother Fujin, the god of wind.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Raijin</smite1:reference>
         <rdfs:label xml:lang="en">Raijin</rdfs:label>
@@ -1970,6 +2282,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000107">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000044"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000161"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;God of the Summer Storm&quot;; the Japanese god of storms, he was forced to live in the underworld because of his destructive attitude. He later atoned for this by giving his Ten-Span Sword to his sister, Amaterasu.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Susano</smite1:reference>
         <rdfs:label xml:lang="en">Susano</rdfs:label>
@@ -1981,6 +2317,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000108">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;God of Bees&quot;; he is the Mayan god of bees. He is an ancient being, being brought into the world when the sky fell against the earth, causing life to begin and the first bees to emerge. This god appeared as patron of these beings.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Ah_Muzen_Cab</smite1:reference>
         <rdfs:label xml:lang="en">Ah_Muzen_Cab</rdfs:label>
@@ -1992,6 +2352,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000109">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Horrific God of Decay&quot;; the lord of the nineth hell and a god of the dead. He comes out at night to scare humans with his grisly skull face while dragging any unlucky people he caught into the underworld.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Ah_Puch</smite1:reference>
         <rdfs:label xml:lang="en">Ah_Puch</rdfs:label>
@@ -2003,6 +2387,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000110">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000161"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Goddess of the Moon;&quot; Queen of the Night and goddess of the moon. Her lover is the sun, which is where the moon gets its glow from, and she has jaguars as her faithful beasts.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Awilix</smite1:reference>
         <rdfs:label xml:lang="en">Awilix</rdfs:label>
@@ -2014,6 +2422,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000111">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000157"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Destroyer of Mountains&quot;; a mighty titan and child of the demon bird Seven Macaw. He also goes by the names Render of Stone and Earthsunder.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Cabrakan</smite1:reference>
         <rdfs:label xml:lang="en">Cabrakan</rdfs:label>
@@ -2025,7 +2457,31 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000112">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
-        <smite:definition>&quot;Deadly God of Bats&quot;; an underworld god that takes the forms of a giant bat. He is known for having killed one of the Hero Twins of Mayan mythology, Hunahpu.</smite:definition>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000161"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <smite:definition>&quot;Deadly God of Bats&quot;; an underworld god that takes the form of a giant bat. He is known for having killed one of the Hero Twins of Mayan mythology, Hunahpu.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Camazotz</smite1:reference>
         <rdfs:label xml:lang="en">Camazotz</rdfs:label>
     </owl:Class>
@@ -2036,6 +2492,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000113">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000160"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;God of Rain&quot;; the Mayan god of rain who weilds a giant axe. He is the god that brought maize for the Mayans to grow and caused the first rainfall by cutting the sky open with his axe.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Chaac</smite1:reference>
         <rdfs:label xml:lang="en">Chaac</rdfs:label>
@@ -2047,6 +2527,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000114">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000161"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;The Howler Monkey God&quot;; twin brother to Hun Chouen and half-brother to the Hero Twins of Mayan mythology. He was transformed into his monky form, along with his brother, when they were tricked to climb up a magical tree.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Hun_Batz</smite1:reference>
         <rdfs:label xml:lang="en">Hun_Batz</rdfs:label>
@@ -2058,7 +2562,31 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000115">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
-        <smite:definition>&quot;Serpent of the Nine Winds&quot;; a massive winged and feather serpent. He brought the four elements into the world, as well as being a god of death and rebirth.</smite:definition>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <smite:definition>&quot;Serpent of the Nine Winds&quot;; a massive winged and feathered serpent. He brought the four elements into the world, as well as being a god of death and rebirth.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Kukulkan</smite1:reference>
         <rdfs:label xml:lang="en">Kukulkan</rdfs:label>
     </owl:Class>
@@ -2069,6 +2597,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000116">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000045"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000156"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Hidden Jaguar Sun&quot;; one half of the Hero Twins of Mayan mythology. He and his brother Hunahpu journeyed through the world on a quest to avenge their father, defeating many enemies.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Xbalanque</smite1:reference>
         <rdfs:label xml:lang="en">Xbalanque</rdfs:label>
@@ -2080,6 +2632,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000117">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000157"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Lord of Glittering Gold&quot;; a dwarf, a creature known for its greed. He killed his own father and stole a treasure trove of cursed gold from him. The curse caused him to turn into a dragon with poisonous blood, as he was so overwhlemed by his greed.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Fafnir</smite1:reference>
         <rdfs:label xml:lang="en">Fafnir</rdfs:label>
@@ -2091,6 +2667,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000118">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000161"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;The Unbound&quot;; a giant wolf-monster and son of Loki. He is bound by a magical ribbon to prevent him from destroying the world. It is believed that if he ever escapes his bindings, he will devour the world and kill Odin.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Fenrir</smite1:reference>
         <rdfs:label xml:lang="en">Fenrir</rdfs:label>
@@ -2102,6 +2702,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000119">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Queen of the Valkyries&quot;; a goddess of fertility and women, she is the leader of the Valkyries, a group of warrior women. She is the rule of Sessrunir, where she provides comfort to those who have fallen in battle.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Freya</smite1:reference>
         <rdfs:label xml:lang="en">Freya</rdfs:label>
@@ -2113,7 +2737,31 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000120">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
-        <smite:definition>&quot;Goddes of the Underworld&quot;; daughter of Loki, her body is half alive and half dead and decaying. She was presented dominion of the underworld by Odin, as she gives comfort to the dead and punishes the wicked souls that come to her.</smite:definition>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <smite:definition>&quot;Goddes of the Underworld&quot;; daughter of Loki, her body is half alive and half dead and decaying. She was presented dominion of the underworld by Odin. Her job was to give comfort to the dead and punish the wicked souls that come to her.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Hel</smite1:reference>
         <rdfs:label xml:lang="en">Hel</rdfs:label>
     </owl:Class>
@@ -2124,6 +2772,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000121">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000161"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;The Trickster God&quot;; a god known for creating michief throughout the Norse pantheon with his magic. When he caused the death of Baldr, he was bound up by the gods for his crime with a venomous serpent placed above him.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Loki</smite1:reference>
         <rdfs:label xml:lang="en">Loki</rdfs:label>
@@ -2135,6 +2807,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000122">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000160"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;The Allfather&quot;; the king of Asgard and a god of war and warriors. He welcomes warriors who have died in battle to Valhalla so that they might aid him in Ragnarok, the Norse Apocalypse.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Odin</smite1:reference>
         <rdfs:label xml:lang="en">Odin</rdfs:label>
@@ -2146,6 +2842,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000123">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000161"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;The Sly Messenger&quot;; a squirrel creature that lives within the world tree, Yggdrasil. His home in the tree makes him the perfect messenger to the gods, however he was also known for spreading gossip.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Ratatoskr</smite1:reference>
         <rdfs:label xml:lang="en">Ratatoskr</rdfs:label>
@@ -2157,6 +2877,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000124">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Goddess of Winter&quot;; a frost giantess and daughter of Jotun Thjazir. When she went to Asgard to avenge her father, Odin memoralized her father in the stars and made her the goddess of winter.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Skadi</smite1:reference>
         <rdfs:label xml:lang="en">Skadi</rdfs:label>
@@ -2168,7 +2912,31 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000125">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
-        <smite:definition>&quot;Goddess of the Sun&quot;; she and her brother, Mani were named after two heavenly bodies, the sun and the moon. As punishment for something their father did, her and her brother are forced to guide the sun and moon across the sky while being chased by hungry wolves.</smite:definition>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <smite:definition>&quot;Goddess of the Sun&quot;; she and her brother, Mani were named after the two heavenly bodies, the sun and the moon. As punishment for something their father did, she and her brother are forced to guide the sun and moon across the sky while being chased by hungry wolves.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Sol</smite1:reference>
         <rdfs:label xml:lang="en">Sol</rdfs:label>
     </owl:Class>
@@ -2179,6 +2947,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000126">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000161"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;God of Thunder&quot;; son of Odin and god of thunder and lightning as well as a might warrior. A lot of his power comes from his hammer, Mjolnir, crafted by dwarves and has the ability to shatter mountains.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Thor</smite1:reference>
         <rdfs:label xml:lang="en">Thor</rdfs:label>
@@ -2190,6 +2982,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000127">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000160"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;The Lawgiver&quot;; the Norse god of justice, worshipped for valor in battle and balance in justice. He lost his hand when they bound Fenrir for the third time.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Tyr</smite1:reference>
         <rdfs:label xml:lang="en">Tyr</rdfs:label>
@@ -2201,6 +3017,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000128">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;The Glorious One&quot;; the Norse god of glory that often spends his time away from Asgard in isolation with nature. However, when Odin leaves his kingdon it is he who is most trusted to tend the throne, despite not being a son of Odin.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Ullr</smite1:reference>
         <rdfs:label xml:lang="en">Ullr</rdfs:label>
@@ -2212,6 +3052,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000129">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000157"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Father of the Frost Giants&quot;; a frost giant where all life, from gods to men, descend from. Long past dead, it is his skull that makes up the sky of Midgard, while his flesh and blood make up the earth and sea.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Ymir</smite1:reference>
         <rdfs:label xml:lang="en">Ymir</rdfs:label>
@@ -2223,6 +3087,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000130">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000157"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;God of Wine&quot;; the Roman god of wine, debauchery, and madness. His mentor Solinus taught him the Mysteries of the Vine, a ritual that he passed down to mortals which leads to lots of wine and freeing oneself from social constraints.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Bacchus</smite1:reference>
         <rdfs:label xml:lang="en">Bacchus</rdfs:label>
@@ -2234,6 +3122,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000131">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000160"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Goddess of War&quot;; the Roman goddess of war that earns power from the fighting of men. She was not widely worshipped until the reign of Lucius Cornelius Sulla in Rome, one of her greatest worshippers.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Bellona</smite1:reference>
         <rdfs:label xml:lang="en">Bellona</rdfs:label>
@@ -2245,6 +3157,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000132">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;God of Love&quot;; the son of Venus and Mars, he is the winged god of love. Armed with a bow and arrow, it is his job to make people fall in love, which in turn adds worshippers for his mother Venus.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Cupid</smite1:reference>
         <rdfs:label xml:lang="en">Cupid</rdfs:label>
@@ -2256,7 +3192,31 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000133">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
-        <smite:definition>&quot;Goddess of Strife&quot;; a mischeif maker, this Roman goddess of strife aims to cause havoc in the lives of gods and men. It was her Greek form, Eris, that created the golden apple that caused the fight between gods that started the Trojan war.</smite:definition>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <smite:definition>&quot;Goddess of Strife&quot;; a mischeif maker, this Roman goddess of strife aims to cause havoc in the lives of gods and men. It was her Greek form, Eris, that created the golden apple that caused the fight between the gods that started the Trojan war.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Discordia</smite1:reference>
         <rdfs:label xml:lang="en">Discordia</rdfs:label>
     </owl:Class>
@@ -2267,7 +3227,31 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000134">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
-        <smite:definition>&quot;Champion of Rome&quot;; the son of Jupiter and mortal woman, he is gifted with incredible strength and will. When Jupiter&apos;s wife Juno found out, she made him mad and he slew his own children. As penance, he performed twelve legendary tasks for King Eurystheus that made him famous.</smite:definition>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000156"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000160"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <smite:definition>&quot;Champion of Rome&quot;; the son of Jupiter and a mortal woman, he is gifted with incredible strength and will. When Jupiter&apos;s wife Juno found out about this illegitimate son, she made him mad and he slew his own children. As penance, he performed twelve legendary tasks for King Eurystheus that made him famous.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Hercules</smite1:reference>
         <rdfs:label xml:lang="en">Hercules</rdfs:label>
     </owl:Class>
@@ -2278,6 +3262,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000135">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;God of Portals and Transitions&quot;; the Roman god of portals and transitions thats likeness often adorns doorways. He has two faces so that he is able to look to into the future and the past.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Janus</smite1:reference>
         <rdfs:label xml:lang="en">Janus</rdfs:label>
@@ -2289,6 +3297,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000136">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000161"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Messenger of the Gods&quot;; a god of incredible speed and wit, Jupiter elected him as the messenger to the gods. He can deliver messages between the gods within Heaven, Earth, and even the Underworld.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Mercury</smite1:reference>
         <rdfs:label xml:lang="en">Mercury</rdfs:label>
@@ -2300,6 +3332,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000137">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;Goddess of Night&quot;; a primal goddess of the night and cloaked in darkness. She is also the mother to several gods, including the gods of friendship and dreams as well as the gods of doom and death,</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Nox</smite1:reference>
         <rdfs:label xml:lang="en">Nox</rdfs:label>
@@ -2311,7 +3367,31 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000138">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
-        <smite:definition>&quot;Keeper of the Wild&quot;; the spirit of nature who holds domain over it, often seen in the form of an old man. Once a young boy named Cyparissus died in his forest due to the god&apos;s fault, so he transformed him into the first cypress tree out of guilt.</smite:definition>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000157"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <smite:definition>&quot;Keeper of the Wild&quot;; the spirit of nature who holds domain over it, often seen in the form of an old man. Once a young boy named Cyparissus died in his forest due to the god&apos;s fault, so he transformed him into the first cypress tree out of guilt. He is the only Guardian character with ranged attacks.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Sylvanus</smite1:reference>
         <rdfs:label xml:lang="en">Sylvanus</rdfs:label>
     </owl:Class>
@@ -2322,6 +3402,30 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000139">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000157"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>&quot;The Earth Mother&quot;; the literal earth itself, all living things rest upon her skin. She was the wife of the sky, Ouranos, and together they gave birth to the Titans.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Terra</smite1:reference>
         <rdfs:label xml:lang="en">Terra</rdfs:label>
@@ -2333,7 +3437,31 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000140">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000047"/>
-        <smite:definition>&quot;Smith of the Gods&quot;; child of Juno and Jupiter, he was ugly at birth and was thrown from Mount Olympus which caused him to become even more deformed. However, his gift in blacksmithing allowed him to create beautiful weapons and armout for the gods.</smite:definition>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000173"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <smite:definition>&quot;Smith of the Gods&quot;; child of Juno and Jupiter, he was ugly at birth and was thrown from Mount Olympus, which onlycaused him to become even more deformed. However, his gift in blacksmithing allowed him to create beautiful weapons and armour for the gods.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Vulcan</smite1:reference>
         <rdfs:label xml:lang="en">Vulcan</rdfs:label>
     </owl:Class>
@@ -2343,7 +3471,8 @@ These characters are based on various gods and goddesses, as well as monsters an
     <!-- http://www.SMITE.com/ontologies/smite.owl/0000151 -->
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000151">
-        <smite:definition>These are what types of beings each character are.</smite:definition>
+        <smite:definition>These are what types of beings each character are. 
+While Smite chooses to call all their characters &quot;Gods&quot;, within the mythology they belong to some of these figures fit better as hero or monster characters. Therefore, I have created these three distinctions in character types.</smite:definition>
         <rdfs:label xml:lang="en">CharacterTypes</rdfs:label>
     </owl:Class>
     
@@ -2392,7 +3521,7 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000157">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
-        <smite:definition>A character with either melee or ranged attacks with magical power. Often are capable of withstanding high damage from enemies.</smite:definition>
+        <smite:definition>A character with either melee, magical attacks (with the exception of Sylvanus, who uses ranged, magical attacks). Often are capable of withstanding high damage from enemies.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Category:Guardian_gods</smite1:reference>
         <rdfs:label xml:lang="en">Guardian</rdfs:label>
     </owl:Class>
@@ -2403,7 +3532,7 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000158">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
-        <smite:definition>A character with ranged, magical attacks. Often used to deal large amounts of damage on enemies.</smite:definition>
+        <smite:definition>A character with ranged, magical attacks (with the exception of Ao Kuang, who uses melee, magical attacks). Often used to deal large amounts of damage on enemies.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Category:Mage_gods</smite1:reference>
         <rdfs:label xml:lang="en">Mage</rdfs:label>
     </owl:Class>
@@ -2414,7 +3543,7 @@ These characters are based on various gods and goddesses, as well as monsters an
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000159">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
-        <smite:definition>A character with ranged and physical abilities. Often are used to deal lots of damage on enemies very quickly.</smite:definition>
+        <smite:definition>A character with ranged, physical attacks. Often are used to deal lots of damage on enemies very quickly.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Category:Hunter_gods</smite1:reference>
         <rdfs:label xml:lang="en">Hunter</rdfs:label>
     </owl:Class>
