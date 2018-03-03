@@ -10,7 +10,7 @@
      xmlns:smite1="http://www.SMITE.com/ontologies/smite.owl/0000174">
     <owl:Ontology rdf:about="http://www.SMITE.com/ontologies/smite.owl">
         <smite:definition>The Smite Ontology is an ontology about the free-to-play video game. It is a MOBA (Multiplayer Online Battle Arena) and strategy game where players plays as characters from various mythologies around the world and fight against each other.
-This ontology looks at the different playable characters and describes them using Protege&apos;s ontology software.</smite:definition>
+This ontology looks at the different playable characters, what pantheon they belong to, and their abilities.</smite:definition>
     </owl:Ontology>
     
 
@@ -346,7 +346,7 @@ These characters are based on various gods and goddesses, as well as monsters an
                 <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <smite:definition>Phantom Queen; this is the title for the trinity goddesses within Celtic mythology, Anu, Macha, and Badb. These three make up the Morrigan and represent sovereignty, war and death.</smite:definition>
+        <smite:definition>Phantom Queen; this is the title for the trinity goddesses within Celtic mythology: Anu, Macha, and Badb. These three make up the Morrigan and represent sovereignty, war and death.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/The_Morrigan</smite1:reference>
         <rdfs:label xml:lang="en">The_Morrigan</rdfs:label>
     </owl:Class>
@@ -416,7 +416,7 @@ These characters are based on various gods and goddesses, as well as monsters an
                 <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <smite:definition>&quot;Faerie of the Moon&quot;; Chinese Goddess of the moon and wife of Hou Yi. She is forced to live on the moon away from her husband and has a Jade Rabbit as her companion.</smite:definition>
+        <smite:definition>&quot;Faerie of the Moon&quot;; Chinese Goddess of the moon and wife of Hou Yi. She is forced to live on the moon away from her husband and has a Jade Rabbit as her only companion.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Chang%27e</smite1:reference>
         <rdfs:label xml:lang="en">Chang&apos;e</rdfs:label>
     </owl:Class>
@@ -486,7 +486,7 @@ These characters are based on various gods and goddesses, as well as monsters an
                 <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000160"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <smite:definition>&quot;The Illustrious Sage&quot;; born to a goddess mother and mortal father, he is a heroic warrior as well as magical sage.</smite:definition>
+        <smite:definition>&quot;The Illustrious Sage&quot;; born to a goddess mother and mortal father, he is a heroic warrior as well as a magical sage.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Erlang_Shen</smite1:reference>
         <rdfs:label xml:lang="en">Erlang_Shen</rdfs:label>
     </owl:Class>
@@ -521,7 +521,7 @@ These characters are based on various gods and goddesses, as well as monsters an
                 <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000160"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <smite:definition>&quot;Saint of War&quot;; a honourable and loyal warrior in his mortal life, he was made immortal and became a guardian of justice, earning his title.</smite:definition>
+        <smite:definition>&quot;Saint of War&quot;; a honourable and loyal warrior in his mortal life. He was made immortal and became a guardian of justice, earning his title.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Guan_Yu</smite1:reference>
         <rdfs:label xml:lang="en">Guan_Yu</rdfs:label>
     </owl:Class>
@@ -836,7 +836,7 @@ These characters are based on various gods and goddesses, as well as monsters an
                 <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000159"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <smite:definition>&quot;Slayer of Enemies&quot;; the Egyptian god of war who has the head of a lion and son of Ra. He once protected the golden barge that guided the sun across the sky.</smite:definition>
+        <smite:definition>&quot;Slayer of Enemies&quot;; the son of Ra, he is the Egyptian god of war who has the head of a lion. He once protected the golden barge that guided the sun across the sky.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Anhur</smite1:reference>
         <rdfs:label xml:lang="en">Anhur</rdfs:label>
     </owl:Class>
@@ -906,7 +906,7 @@ These characters are based on various gods and goddesses, as well as monsters an
                 <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000161"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <smite:definition>&quot;Goddess of Cats&quot;; the cat-headed goddess of cats, women, and the arts and daughter of Ra. She, along with her brother Anhur, guarded the golden barge that guided the sun across the sky.</smite:definition>
+        <smite:definition>&quot;Goddess of Cats&quot;; daughter of Ra and the cat-headed goddess of cats, women, and the arts. She, along with her brother Anhur, guarded the golden barge that guided the sun across the sky.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Bastet</smite1:reference>
         <rdfs:label xml:lang="en">Bastet</rdfs:label>
     </owl:Class>
@@ -1746,7 +1746,7 @@ These characters are based on various gods and goddesses, as well as monsters an
                 <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <smite:definition>&quot;Horror of the Deep&quot;; an ocean monster with the body of a woman wth dog-headed tentacles coming from her waist. She is featured in the story &quot;The Odyssey&quot;, she and the whirlpool monster Charybdis guarded a channel.</smite:definition>
+        <smite:definition>&quot;Horror of the Deep&quot;; an ocean monster with the body of a woman wth dog-headed tentacles coming from her waist. She is featured in the story &quot;The Odyssey&quot;, where she and the whirlpool monster Charybdis guarded a channel.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Scylla</smite1:reference>
         <rdfs:label xml:lang="en">Scylla</rdfs:label>
     </owl:Class>
