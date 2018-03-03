@@ -93,6 +93,16 @@ This ontology looks at the different playable characters, what pantheon they bel
     
 
 
+    <!-- http://www.SMITE.com/ontologies/smite.owl/0000176 -->
+
+    <owl:ObjectProperty rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000176">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <smite:definition>Fighter class is part of this category.</smite:definition>
+        <rdfs:label xml:lang="en">includesClass</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3521,6 +3531,24 @@ While Smite chooses to call all their characters &quot;Gods&quot;, within the my
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000157">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:someValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:someValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>A character with either melee, magical attacks (with the exception of Sylvanus, who uses ranged, magical attacks). Often are capable of withstanding high damage from enemies.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Category:Guardian_gods</smite1:reference>
         <rdfs:label xml:lang="en">Guardian</rdfs:label>
@@ -3532,6 +3560,24 @@ While Smite chooses to call all their characters &quot;Gods&quot;, within the my
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000158">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:someValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:someValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>A character with ranged, magical attacks (with the exception of Ao Kuang, who uses melee, magical attacks). Often used to deal large amounts of damage on enemies.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Category:Mage_gods</smite1:reference>
         <rdfs:label xml:lang="en">Mage</rdfs:label>
@@ -3543,6 +3589,18 @@ While Smite chooses to call all their characters &quot;Gods&quot;, within the my
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000159">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>A character with ranged, physical attacks. Often are used to deal lots of damage on enemies very quickly.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Category:Hunter_gods</smite1:reference>
         <rdfs:label xml:lang="en">Hunter</rdfs:label>
@@ -3554,6 +3612,18 @@ While Smite chooses to call all their characters &quot;Gods&quot;, within the my
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000160">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>A character that uses physical, melee attacks. Often are able to deal lots of damage as well as sustain damage from others.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Category:Warrior_gods</smite1:reference>
         <rdfs:label xml:lang="en">Warrior</rdfs:label>
@@ -3565,6 +3635,18 @@ While Smite chooses to call all their characters &quot;Gods&quot;, within the my
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000161">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000153ClassType"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000169"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000171"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>A character that uses physical, melee attacks. Often have high mobility and burst attack strength.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Category:Assassin_gods</smite1:reference>
         <rdfs:label xml:lang="en">Assassin</rdfs:label>
@@ -3585,6 +3667,24 @@ While Smite chooses to call all their characters &quot;Gods&quot;, within the my
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000163">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000162"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000176"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000176"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000160"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000176"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000161"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000164"/>
         <smite:definition>Characters with this power type use attacks related to bodily capabilities, such as strikes, claws, and weapons.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Category:Physical_gods</smite1:reference>
@@ -3597,6 +3697,18 @@ While Smite chooses to call all their characters &quot;Gods&quot;, within the my
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000164">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000162"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000176"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000157"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000176"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>Characters with this power type are able to use magic to deliver attacks on enemies.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Category:Magical_gods</smite1:reference>
         <rdfs:label xml:lang="en">Magical</rdfs:label>
@@ -3617,6 +3729,24 @@ While Smite chooses to call all their characters &quot;Gods&quot;, within the my
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000166">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000165"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000176"/>
+                <owl:someValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000157"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000176"/>
+                <owl:someValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000176"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000167"/>
         <smite:definition>These are attacks that can be delivered from a far, meaning that the character can be far away from their enemy and still deal damage.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Category:Ranged_gods</smite1:reference>
@@ -3629,6 +3759,30 @@ While Smite chooses to call all their characters &quot;Gods&quot;, within the my
 
     <owl:Class rdf:about="http://www.SMITE.com/ontologies/smite.owl/0000167">
         <rdfs:subClassOf rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000165"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000176"/>
+                <owl:someValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000157"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000176"/>
+                <owl:someValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000176"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000160"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000176"/>
+                <owl:allValuesFrom rdf:resource="http://www.SMITE.com/ontologies/smite.owl/0000161"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <smite:definition>These are attacks that are delivered within a short range, so characters must be close to their enemies in order to use their abilities.</smite:definition>
         <smite1:reference>https://smite.gamepedia.com/Category:Melee_gods</smite1:reference>
         <rdfs:label xml:lang="en">Melee</rdfs:label>
